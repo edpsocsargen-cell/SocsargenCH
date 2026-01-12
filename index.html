@@ -678,27 +678,7 @@
   </div>
 </section>
 
-<section class="network-section">
-  <div class="container text-center">
-    <h2 class="network-title">Network of Care</h2>
 
-    <p class="network-text">
-      Socsargen County is a proud member of Metro Pacific Health (MPH),
-      the largest and the most trusted private hospital group in the country.
-    </p>
-
-    <a href="#" class="network-btn">Learn more</a>
-  </div>
-
-  <!-- LOGOS -->
-  <div class="network-logos">
-    <img src="image/makati.png" alt="Makati Medical Center">
-    <img src="image/cardinal.png" alt="Cardinal Santos">
-    <img src="image/asian.png" alt="Asian Hospital">
-    <img src="image/manila.png" alt="Manila Doctors">
-    <img src="image/stelizabeth.png" alt="St. Elizabeth Hospital">
-  </div>
-</section>
 
 <section class="hmo-section">
   <div class="container text-center">
@@ -875,18 +855,52 @@
       <div class="form-card">
         <h3>Send us a message</h3>
 
-        <form>
-          <div class="form-row">
-            <input type="text" placeholder="First Name *" required />
-            <input type="text" placeholder="Last Name *" required />
-          </div>
+        <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSeq1k0DZEdhafZUyWPteCsyklIKFSYUekrYiDy0xGIf9a1RTw/formResponse"
+              method="POST"
+              target="_self"
+            >
+              <!-- REQUIRED GOOGLE FIELDS -->
+              <input type="hidden" name="fvv" value="1" />
+              <input type="hidden" name="fbzx" value="7232809109333318491" />
 
-          <input type="tel" placeholder="Contact Number *" required />
-          <input type="email" placeholder="Email *" required />
-          <textarea placeholder="How can we help you?"></textarea>
+              <div class="form-row">
+                <input
+                  type="text"
+                  name="entry.2005620554"
+                  placeholder="First Name *"
+                  required
+                />
 
-          <button type="submit">Send Message</button>
-        </form>
+                <input
+                  type="text"
+                  name="entry.502657813"
+                  placeholder="Last Name *"
+                  required
+                />
+              </div>
+
+              <input
+                type="tel"
+                name="entry.1166974658"
+                placeholder="Contact Number *"
+                required
+              />
+
+              <input
+                type="email"
+                name="entry.1045781291"
+                placeholder="Email *"
+                required
+              />
+
+              <textarea
+                name="entry.839337160"
+                placeholder="How can we help you?"
+              ></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
       </div>
     </div>
   </div>
