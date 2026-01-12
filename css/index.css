@@ -1043,7 +1043,7 @@
 }
 
 .hmo-logos img {
-  max-height: 60px;
+  max-height: 100%;
   max-width: 100%;
   filter: grayscale(20%);
   opacity: 0.95;
@@ -1054,6 +1054,19 @@
   transform: scale(1.08);
   opacity: 1;
   filter: grayscale(0%);
+}
+.hmo-banner {
+  width: 100%;
+  max-width: 1100px; /* controls how big it gets */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* Optional: slightly reduce padding */
+.hmo-card {
+  padding: 40px;
 }
 
 /* MOBILE */
